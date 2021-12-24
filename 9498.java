@@ -11,6 +11,7 @@ public class Main {
 		else if(A>=80) System.out.println("B");
 		else if (A>=70) System.out.println("C");
 		else if(A>=60) System.out.println("D");
-		else System.out.println("F");
+		else System.out.println("F"); 
+		//시험
 	}
 }

@@ -13,5 +13,4 @@ for (let i = 1; i <= K; i++) {
   r *= i
 }
 
-
 console.log(n / r);

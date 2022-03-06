@@ -20,3 +20,4 @@ for (let i = 0; i < T; i++) {
 
   console.log(house[k][n]);
 }
+

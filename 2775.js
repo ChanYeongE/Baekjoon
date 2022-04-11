@@ -1,7 +1,6 @@
 const fs = require('fs');
 const input = fs.readFileSync('/dev/stdin').toString().split('\n');
 const T = Number(input.shift());
-
 for (let i = 0; i < T; i++) {
   const k = +input.shift();
   const n = +input.shift();

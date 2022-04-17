@@ -3,6 +3,7 @@ const input = fs.readFileSync("./dev/stdin").toString().trim().split("\n").map(v
 const [N,M] = input[0]
 const nums = input[1].sort((a,b)=>a-b)
 const answer = [];
+
 function sequence(arr,cnt){
   if(cnt==M){
     answer.push(arr.join(' '))
